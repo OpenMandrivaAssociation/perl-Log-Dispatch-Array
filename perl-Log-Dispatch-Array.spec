@@ -1,15 +1,15 @@
 %define upstream_name    Log-Dispatch-Array
-%define upstream_version 1.001
+%define upstream_version 1.002
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Version:	%perl_convert_version 1.002
+Release:	1
 
 Summary:	Log events to an array (reference)
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Log/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Log/Log-Dispatch-Array-1.002.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(ExtUtils::MakeMaker)
@@ -52,3 +52,4 @@ perl Makefile.PL INSTALLDIRS=vendor
 
 * Thu Mar 04 2010 cpan2dist 1.001-1mdv
 - initial mdv release, generated with cpan2dist
+
