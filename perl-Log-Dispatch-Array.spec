@@ -1,15 +1,15 @@
 %define upstream_name    Log-Dispatch-Array
-%define upstream_version 1.003
+%define upstream_version 1.005
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Version:	%{upstream_version}
+Release:	1
 
 Summary:	Log events to an array (reference)
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Log/Log-Dispatch-Array-%{upstream_version}.tar.gz
+Url:		https://github.com/rjbs/Log-Dispatch-Array
+Source0:	https://cpan.metacpan.org/authors/id/R/RJ/RJBS/Log-Dispatch-Array-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
